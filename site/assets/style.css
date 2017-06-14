@@ -69,13 +69,6 @@ h1 {
 .content h2, h3, h4 {
     font-weight: 700;
 }
-.colors {
-    font-weight: 700;
-    margin-left: 12px;
-}
-.colors ul {
-    font-size: 1.5em;
-}
 a {
     color: #02549E;
     text-decoration: underline;
