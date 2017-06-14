@@ -36,18 +36,6 @@ img {
     flex-direction: column;
 }
 
-.content .top-crab {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-
-    flex-wrap: wrap;
-}
-.content .top-crab .original {
-    max-width: 50%;
-    min-width: 300px;
-}
-
 .content .crab-variants {
     display: flex;
     flex-direction: row;
