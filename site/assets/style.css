@@ -27,7 +27,7 @@ img {
     flex-direction: row;
     align-items: flex-start;
 }
-.header img { flex: 0 0 auto; min-width: 80px; width: 22%; max-width: 120px; margin-right: 12px; }
+.header img { flex: 0 0 auto; min-width: 80px; width: 22vw; max-width: 120px; margin-right: 12px; }
 .header .introduction { flex: 1 1 auto; max-width: calc(100% - 80px);}
 .header h1, .header h2 { word-wrap: break-word; }
 
@@ -46,13 +46,12 @@ img {
 .content .crab-variants > div {
     flex: 0 0 auto;
     min-width: 150px;
-    width: 22%;
+    width: 19vw;
 }
 
 .crab-variants h3 {
     height: 1.2em;
 }
-
 
 h1 span, h2, h3 {
     color: #01346B;
