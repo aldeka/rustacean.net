@@ -65,6 +65,10 @@ h1 {
     margin-bottom: .5em;
 }
 
+.dl {
+    text-align: center;
+}
+
 .content h2, h3, h4 {
     font-weight: 700;
 }
@@ -75,11 +79,6 @@ a {
 a:not([href]) {
     color: inherit;
     text-decoration: none;
-}
-a[href$=".ai"]:after {
-    content: " [.ai]";
-    font-weight: 700;
-    color: black;
 }
 a:hover {
     color: #01346B;
