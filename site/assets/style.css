@@ -53,16 +53,20 @@ img {
     height: 1.2em;
 }
 
-h1 span, h2, h3 {
+h2, h3 {
     color: #01346B;
 }
 h1 {
     font-family: 'Bevan', 'Rockwell Extra Bold', 'Merriweather', Bodoni, Baskerville, serif;
     font-weight: 400;
-    color: #02549E;
+    color: #01346B; /* #02549E; */
     font-size: 3em;
-    margin-top: 0;
+    margin-top: .25em;
     margin-bottom: .5em;
+}
+
+h1 span {
+    color: #e33b26;
 }
 
 .dl {
