@@ -46,12 +46,29 @@ img {
 .header h1 {
   line-height: 3rem;
 }
+.header img {
+  flex: 0 1 auto;
+  min-width: 72px;
+  width: 22vw;
+  max-width: 150px;
+  margin-right: 12px;
+  margin-top: 0.5rem;
+}
+.header .introduction {
+  flex: 1 1 auto;
+  max-width: calc(100% - 80px);
+}
+.header h1,
+.header h2 {
+  word-wrap: break-word;
+}
+.header h1 {
+  line-height: 3rem;
+}
 
 .content {
   display: flex;
   flex-direction: column;
-  max-width: 1000px;
-  margin: 0 auto;
 }
 
 .content .crab-variants {
@@ -61,9 +78,9 @@ img {
 }
 
 .content .crab-variants > div {
-  flex: 0 0 auto;
+  flex: 0 1 auto;
   min-width: 150px;
-  width: 23%;
+  max-width: 250px;
   margin-right: 12px;
 }
 
@@ -125,6 +142,10 @@ a {
 
 a:hover {
   color: #01346b;
+}
+
+.license {
+  margin-top: 12px;
 }
 
 .license {
