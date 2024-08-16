@@ -9,7 +9,7 @@ body {
 
 .container {
     margin: 0 auto;
-    min-width: 320px;
+    min-width: 470px;
     max-width: 80vw;
     display: flex;
     flex-direction: column;
@@ -27,9 +27,19 @@ img {
     flex-direction: row;
     align-items: flex-start;
 }
-.header img { flex: 0 0 auto; min-width: 80px; width: 22vw; max-width: 120px; margin-right: 12px; }
+.header img {
+    flex: 0 1 auto;
+    min-width: 72px;
+    width: 22vw;
+    max-width: 150px;
+    margin-right: 12px;
+    margin-top: 0.5rem;
+}
 .header .introduction { flex: 1 1 auto; max-width: calc(100% - 80px);}
 .header h1, .header h2 { word-wrap: break-word; }
+.header h1 {
+    line-height: 3rem;
+}
 
 .content {
     display: flex;
@@ -43,14 +53,34 @@ img {
 }
 
 .content .crab-variants > div {
-    flex: 0 0 auto;
+    flex: 0 1 auto;
     min-width: 150px;
-    width: 19vw;
+    max-width: 250px;
     margin-right: 12px;
 }
 
 .crab-variants h3 {
     height: 1.2em;
+}
+
+.related-works-nav {
+    display: flex;
+    background: rgba(255, 255, 255, 0.6);
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.related-works-nav a {
+    display: block;
+    padding: 12px;
+}
+
+.related-works-nav a:hover {
+    background: white;
+}
+
+.related-works-items .crab-variants {
+    margin-left: 24px;
 }
 
 h2, h3 {
@@ -83,6 +113,10 @@ a {
 
 a:hover {
     color: #01346B;
+}
+
+.license {
+    margin-top: 12px;
 }
 
 .license a[rel="license"] {
