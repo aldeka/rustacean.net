@@ -108,6 +108,11 @@ img {
   margin-left: 24px;
 }
 
+.related-works-items img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
 h2,
 h3 {
   color: #01346b;
